@@ -1,0 +1,18 @@
+Circuito 1:
+
+Questão 1: DNUP (nível alto) 1, GN (nível baixo)0, LND (nível alto) 1;
+Questão 2: Adicionar porta or3 ligada em Qq, Qc e Qb na entrada LDN; Ligar Vcc na entrada A; Ligar GND(aterramento) nas entradas B,C,D, GN e DNUP;
+Questão 3: De 0 à 9: GND nas entradas A,B,C,D, GN e DNUP; Adicionar porta nand2 ligado a Qb e Qd à LDN;   Para 9 à 0 GND ligadod à nas entradas B,C e GN; Ligar Vcc nas entradas A,D e DNUP; Adicionar porta nand2 ligando Qb e Qd à LDN;
+Questão 4: Para parar a contagem basta deixar o GN em nível alto no momento que deseja parar a contagem;
+
+Circuito 2:
+Questão 1:Ligar o terminal em Vcc (display anodo) e o segmento em GND;
+Questão 2:Anodo Comum: todos os segmentos esao interligados internamente e para o display funcionar, este terminal comum deverá ser ligado em Vcc, enquanto que o segmento em GND; Catodo Comum: terminal comum em GND e Vcc ao terminal;
+Questão 3: 
+LT:  utilizado para teste dos segmentos;
+BI:  controle da intensidade dos leds do display;
+RBO: Saída de apagamento para operação cascata;
+RBI: Entrada de apagamento para operação cascata;
+
+Circuito 3:
+Para contagem de 0 a 15 DNUP fica em nível baixo, LDN em nivel alto; Para contagem de 15 à 0 DNUP e LDN em nível alto;
